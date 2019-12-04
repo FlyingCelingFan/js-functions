@@ -26,7 +26,7 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
-
+var bango1, bango2;
 
 /*
  * #2
@@ -43,9 +43,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `sum` to test your code.
 */
 
-
-
-
+function add(num1,num2) {
+	return num1 + num2;
+	
+}
+ var sum = add(1,2);
+console.log(sum);
 /*
  * #3
  * Function - subtract
@@ -60,7 +63,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `difference` to test your code.
 */ 
 
-
+function subtract(num1,num2) {
+	return num1 - num2;
+	
+}
+ var difference = subtract(1,2);
+console.log(difference);
 
 
 
@@ -79,12 +87,17 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `product` to test your code.
 */
 
-
+function multiply(num1,num2) {
+	return num1 * num2;
+	
+}
+ var product = multiply(1,2);
+console.log(product);
 
 
 /*
  * #5
- * Function - divide
+ * Function - divide 
  * Create a function named `divide` which will take two parameters: `num1` and `num2`.
  *
  *    @param Datatype: Number `num1`
@@ -96,7 +109,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `quotient` to test your code.
 */
 
-
+function divide(num1,num2) {
+	return num1 / num2;
+	
+}
+ var quotient = divide(1,2);
+console.log(quotient);
 
 /*
  * #6
@@ -111,7 +129,13 @@ console.log(testGreeting); // printing the output value of the function.
 */
 
 
+function checkSum(x) {
+	return 'Mariah Carey has been married '+ x +' amount of times.';
+	
+}
 
+var sum = checkSum(20);
+console.log(sum);
 
 
 /*
@@ -127,6 +151,14 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your results.
 */ 
 
+function checkDifference(x) {
+	return 'Last night I dreamt that I ate '+ x +' Taco bell soft tacos.';
+	
+}
+
+var difference = checkDifference(20);
+console.log(difference);
+
 
 
 /*
@@ -140,7 +172,9 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.  
 */
 
-
+function checkProduct(){
+	return sum * difference;
+}
 /*
  * #9
  * Function - checkQuotient
@@ -192,7 +226,7 @@ console.log(testGreeting); // printing the output value of the function.
 */ 
 
 
-}
+//}
 
 
 /*
