@@ -173,8 +173,10 @@ console.log(difference);
 */
 
 function checkProduct(){
-	return sum * difference;
+	return 4 * 4;
 }
+
+console.log(checkProduct());
 /*
  * #9
  * Function - checkQuotient
@@ -186,6 +188,11 @@ function checkProduct(){
  * Console.log your result.  
 */
 
+function checkQuotient(){
+	return 4 / 4;
+}
+
+console.log(checkQuotient());
 
 
 /*
@@ -208,7 +215,9 @@ function checkProduct(){
  * Console.log your result.
 */ 
 
-
+function addThenSubtract(){
+	var 'bango3','bango4', 'bango5';
+}
 
 
 /*
