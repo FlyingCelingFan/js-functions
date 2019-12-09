@@ -26,7 +26,8 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
-var bango1, bango2;
+var bango1 = 2; 
+var bango2 = 3;
 
 /*
  * #2
@@ -46,8 +47,8 @@ var bango1, bango2;
 function add(num1,num2) {
 	return num1 + num2;
 	
-}
- var sum = add(1,2);
+} 
+ var sum = add(bango1,bango2);
 console.log(sum);
 /*
  * #3
@@ -67,7 +68,7 @@ function subtract(num1,num2) {
 	return num1 - num2;
 	
 }
- var difference = subtract(1,2);
+ var difference = subtract(bango1,bango2);
 console.log(difference);
 
 
@@ -91,7 +92,7 @@ function multiply(num1,num2) {
 	return num1 * num2;
 	
 }
- var product = multiply(1,2);
+ var product = multiply(bango1,bango2);
 console.log(product);
 
 
@@ -113,7 +114,7 @@ function divide(num1,num2) {
 	return num1 / num2;
 	
 }
- var quotient = divide(1,2);
+ var quotient = divide(bango1,bango2);
 console.log(quotient);
 
 /*
@@ -131,11 +132,9 @@ console.log(quotient);
 
 function checkSum(x) {
 	return 'Mariah Carey has been married '+ x +' amount of times.';
-	
-}
+	}
 
-var sum = checkSum(20);
-console.log(sum);
+console.log(checkSum('twice'));
 
 
 /*
@@ -155,9 +154,7 @@ function checkDifference(x) {
 	return 'Last night I dreamt that I ate '+ x +' Taco bell soft tacos.';
 	
 }
-
-var difference = checkDifference(20);
-console.log(difference);
+console.log(checkDifference('more than I should'));
 
 
 
@@ -214,10 +211,16 @@ console.log(checkQuotient());
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+	var bango3 = 3
+		bango4 = 4
+		bango5 = 5;
 
-function addThenSubtract(){
-	var 'bango3','bango4', 'bango5';
+function addThenSubtract(num1, num2, num3){
+	return num1 + num2 - num3;
 }
+
+console.log(addThenSubtract(bango3,bango4,bango5));
+
 
 
 /*
@@ -234,8 +237,11 @@ function addThenSubtract(){
  * Console.log your result.
 */ 
 
+function multiplyThenDivide(num1,num2,num3) {
+	return num1 + num2 + num3;
+}
 
-//}
+console.log(multiplyThenDivide(bango3,bango4,bango5));
 
 
 /*
@@ -250,7 +256,10 @@ function addThenSubtract(){
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
 
-
+function createFullName(firstName,lastName) {
+	return firstName + ' ' + lastName;
+}
+console.log(createFullName('Andrew', 'Narciso'))
 
 /*
  * #13 
@@ -293,8 +302,9 @@ function addThenSubtract(){
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
  
-
-
+function allCaps(str){
+return str.toUpperCase;
+}
 /*
  * #16
  * Function oneCap
