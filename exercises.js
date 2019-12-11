@@ -259,7 +259,7 @@ console.log(multiplyThenDivide(bango3,bango4,bango5));
 function createFullName(firstName,lastName) {
 	return firstName + ' ' + lastName;
 }
-console.log(createFullName('Andrew', 'Narciso'))
+console.log(createFullName('Andrew', 'Narciso'));
 
 /*
  * #13 
@@ -275,8 +275,11 @@ console.log(createFullName('Andrew', 'Narciso'))
  * Console.log your result.
  */
 
+function eatFood(firstName,lastName,food) {
+	return firstName + ' ' + lastName + " eats " + food + " everyday for breakfast.";
 
-
+}
+console.log(eatFood('Andrew', 'Narciso','Won Ton Soup'));
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
 *  gained figure out how to build the necessary functions. Use your google-fu to 
@@ -290,7 +293,10 @@ console.log(createFullName('Andrew', 'Narciso'))
  * Console.log your result. 
 */
 
-
+function shoeSize(inches) {	
+	return inches * 2.54;
+}
+console.log(shoeSize(1));	
 
 /*
  * #15
@@ -303,8 +309,10 @@ console.log(createFullName('Andrew', 'Narciso'))
 */
  
 function allCaps(str){
-return str.toUpperCase;
+return str
 }
+console.log(str('all caps'.toUpperCase()));
+
 /*
  * #16
  * Function oneCap
